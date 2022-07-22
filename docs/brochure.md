@@ -98,7 +98,7 @@ National Competitive Artificial Intelligence Contest on Internet 2022
 
 ### (四) 系統環境
 
-競賽將使用 [NCAIC Toolkit on Docker](https://hub.docker.com/r/jacoblincool/ncaic) 進行，並運行於 Ubuntu 22.04 虛擬機中。
+競賽將使用 [NCAIC Toolkit on Docker](https://hub.docker.com/r/jacoblincool/ncaic) 進行，並運行於 Ubuntu 20.04 / 22.04 虛擬機中。
 
 你可以使用以下指令來檢查競賽環境的編譯器版本：
 
@@ -107,7 +107,6 @@ docker run --rm jacoblincool/ncaic check
 ```
 
 - OS: `Debian GNU/Linux 10 (buster) aarch64`
-- CPU / Memory: 2-core / 12G
 - Languages
   - **C**
     - 編譯指令：`gcc --std=c11 -lm -O2 -o agent agent.c`
